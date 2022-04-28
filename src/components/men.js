@@ -7,12 +7,16 @@ import Mentile from "../img/men-tile1.avif";
 import Mentiles from "../img/men-tile-2.avif";
 import Berg from "../img/berghaus.avif";
 import Footer from "../components/footer";
+
 const Men = () => {
   return (
     <>
-     <div className="flex mx-0 cursor-default h-96 md:h-half md:mx-10">
+      <div className="flex mx-0 cursor-default h-96 md:h-half md:mx-10">
         <div className="md:w-half">
-          <img src={Man} className="absolute h-60 sm:bottom-96 right-0 md:static md:h-half md:w-half" />
+          <img
+            src={Man}
+            className="translate-y-28 absolute h-64 right-0 md:static md:translate-y-0 md:h-half md:w-half"
+          />
         </div>
         <div className="bg-gradient-to-b from-green-400 to-teal-400 w-full md:w-9/12">
           <h1 className="p-6 text-5xl font-black lg:text-8.5xl md:text-8xl font-bold">

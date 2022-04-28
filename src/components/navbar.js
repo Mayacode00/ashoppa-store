@@ -13,7 +13,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
   return (
     <>
-      <div className="font-body">
+      <div className="font-body w-full">
         <div className="bg-gray-700 text-slate-100 h-16 items-center flex">
           <div className="px-2 cursor-pointer lg:hidden" onClick={handleClick}>
             {!nav ? (
@@ -44,11 +44,10 @@ const Navbar = () => {
         </div>
         <div className="flex items-center px-1">
           <input
-            className="p-2 mr-2 items-center font-inherit rounded-xl w-10/12 border border-slate-600"
+            className="p-2 mr-2 items-center font-inherit rounded-xl w-full border border-slate-600"
             type="text"
             placeholder="Search for items and brands"
           />
-          <FaSearch size={20} style={{ color: " #5053w59" }} className="cursor-pointer hover:text-slate-700"/>
         </div>
         <ul className={!nav ? "hidden" : "nav-md"}>
           <li className="li-style">New in</li>

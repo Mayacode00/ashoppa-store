@@ -14,7 +14,7 @@ const Women = () => {
         <div className="md:w-half">
           <img
             src={Gown}
-            className="absolute h-64 top-64 right-0 md:static md:h-half md:w-half"
+            className="translate-y-28 absolute h-64 right-0 md:static md:translate-y-0 md:h-half md:w-half"
           />
         </div>
         <div className="bg-gradient-to-b from-green-400 to-teal-400 w-full md:w-9/12">
