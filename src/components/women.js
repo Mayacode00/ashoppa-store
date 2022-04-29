@@ -1,11 +1,11 @@
 import React from "react";
-import Gown from "../img/gowns.avif";
-import Corset from "../img/top-corset.avif";
-import Fluffy from "../img/fluffy-dress.avif";
-import Top from "../img/topshop.avif";
-import Heels from "../img/heels.avif";
-import Beach from "../img/beach.avif";
-import Hair from "../img/hair.avif";
+import Gown from "../img/gowns.jpg";
+import Corset from "../img/top-corset.jpg";
+import Fluffy from "../img/fluffy.jpg";
+import Top from "../img/topshop.jpg";
+import Heels from "../img/heels.jpg";
+import Beach from "../img/beach.jpg";
+import Hair from "../img/hair.jpg";
 import Footer from "../components/footer";
 const Women = () => {
   return (

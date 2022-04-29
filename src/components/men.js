@@ -1,11 +1,11 @@
 import React from "react";
-import Man from "../img/men.avif";
-import Gbl from "../img/gbl.avif";
-import Polo from "../img/polo.avif";
-import Unisex from "../img/unisex.avif";
-import Mentile from "../img/men-tile1.avif";
-import Mentiles from "../img/men-tile-2.avif";
-import Berg from "../img/berghaus.avif";
+import Man from "../img/men.jpg";
+import Gbl from "../img/gbl.jpg";
+import Polo from "../img/polo.jpg";
+import Unisex from "../img/unisex.jpg";
+import Mentile from "../img/men-tile1.jpg";
+import Mentiles from "../img/men-tile-2.jpg";
+import Berg from "../img/berghaus.jpg";
 import Footer from "../components/footer";
 
 const Men = () => {

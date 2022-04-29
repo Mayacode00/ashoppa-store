@@ -1,8 +1,8 @@
 import React from "react";
 import Bckgrd from "../img/landing.jpg";
-import Bckgrd2 from "../img/landing2.avif";
-import Bckgrd3 from "../img/landing3.avif";
-import Bckgrd4 from "../img/landing4.avif";
+import Bckgrd2 from "../img/landing2.jpg";
+import Bckgrd3 from "../img/landing3.jpg";
+import Bckgrd4 from "../img/landing4.jpg";
 import { Link } from "react-router-dom";
 import Navbar from "./navbar";
 
